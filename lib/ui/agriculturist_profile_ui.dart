@@ -1,16 +1,26 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:greenjobs_ph/ui/hireworker_ui.dart';
 
 class AgriculturistProfilePage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
+
+    int index = 0;
     // TODO: implement build
       return Scaffold(
         bottomNavigationBar: BottomNavigationBar(
           type: BottomNavigationBarType.fixed,
           onTap: (i){
-
+            if(i == 1){
+              return Navigator.of(context).push(MaterialPageRoute<Null>(
+                  builder: (BuildContext context) {
+                    return HireWorkerPage();
+                  },
+                  fullscreenDialog: false
+              ));
+            }
           },
           currentIndex: 0,
           items: [
