@@ -1,0 +1,136 @@
+name: greenjobs_ph
+description: Get your earth worker now
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  flutter_staggered_grid_view: ^0.3.2
+  carousel_slider: ^2.2.1
+  auto_size_text: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/login.jpg
+    - images/logo.png
+    - images/loginlogo.png
+    - images/green.png
+    - images/title_background.png
+    - images/home/agriculture.png
+    - images/home/climate-change.png
+    - images/home/consult.png
+    - images/home/ecosystem.png
+    - images/home/electric-car.png
+    - images/home/energy.png
+    - images/home/lake.png
+    - images/home/manufacturing.png
+    - images/home/power.png
+    - images/home/reuse.png
+    - images/home/shield.png
+    - images/home/soil.png
+    - images/home/greenjobsinvi.png
+    - images/home/events/event1.jpg
+    - images/home/events/event2.jpg
+    - images/home/events/event3.png
+    - images/home/popular_jobs/star_review.png
+    - images/home/popular_jobs/verified.png
+    - images/home/popular_jobs/popular_jobs1.png
+    - images/agriculture/agriculture_home1.jpg
+    - images/agriculture/agriculture_home2.jpg
+    - images/agriculture/agriculture_home3.jpg
+    - images/agriculture/agriculture_home4.jpg
+    - images/agriculture/agriculture_home5.jpg
+    - images/agriculture/agriculture_home6.jpg
+    - images/agriculture/agriculture_home7.jpg
+    - images/agriculture/agriculture_home8.jpg
+    - images/agriculture/agriculture_home9.png
+    - images/agriculture/agriculturist/agriculturist1.jpg
+    - images/agriculture/agriculturist/agriculturist2.jpg
+    - images/agriculture/agriculturist/agriculturist3.jpg
+    - images/agriculture/agriculturist/agriculturist4.jpg
+    - images/agriculture/agriculturist/agriculturist5.jpg
+    - images/agriculture/agriculturist/agriculturist6.jpg
+    - images/agriculture/agriculturist/agriculturist7.jpg
+    - images/agriculture/agriculturist/agriculturist8.jpg
+    - images/agriculture/agriculturist/agriculturist9.jpg
+    - images/agriculture/agriculturist/profile/profile1.jpg
+    - images/agriculture/agriculturist/profile/dbagro.jpg
+    - images/agriculture/agriculturist/profile/sgfarming.jpg
+    - images/agriculture/agriculturist/profile/yamangbukid.png
+    - images/addcredit/aub.png
+    - images/addcredit/bdo.png
+    - images/addcredit/bpi.png
+    - images/addcredit/ecpay.png
+    - images/addcredit/paygo.png
+    - images/addcredit/pps.png
+    - images/addcredit/rd.png
+    - images/addcredit/robinson.png
+    - images/addcredit/smart.png
+    - images/addcredit/ub.png
+    - images/addcredit/wu.png
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
