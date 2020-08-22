@@ -1,6 +1,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:greenjobs_ph/ui/home_ui.dart';
 
 import 'login_app_ui.dart';
 
@@ -61,11 +62,11 @@ class LoginPage extends StatelessWidget{
                       Expanded(
                           child: InkWell(
                             onTap: (){
+                              Navigator.of(context).pop();
                               return Navigator.of(context).push(MaterialPageRoute<Null>(
                                   builder: (BuildContext context) {
-                                    return LoginAppPage();
+                                    return HomePage();
                                   },
-                                  fullscreenDialog: true
                               ));
                             },
                             child: Container(

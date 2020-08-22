@@ -3,6 +3,7 @@ import 'package:auto_size_text/auto_size_text.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:greenjobs_ph/ui/addgreedjob_ui.dart';
 import 'package:greenjobs_ph/ui/bookings.dart';
 import 'package:greenjobs_ph/ui/categories.dart';
 import 'package:greenjobs_ph/ui/search.dart';
@@ -440,41 +441,68 @@ class HomePageState extends State<HomePage>{
               child: CarouselSlider(
                 options: CarouselOptions(height: 170.0,),
                 items: [
-                  Container(
-                    decoration: BoxDecoration(
-                        image: DecorationImage(
-                            image: ExactAssetImage('images/home/events/event1.jpg'),
-                            fit: BoxFit.fill
-                        ),
-                        border: Border.all(color: Colors.grey),
-                        borderRadius: BorderRadius.circular(10.0)
+                  InkWell(
+                    onTap: (){
+                      return Navigator.of(context).push(MaterialPageRoute<Null>(
+                        builder: (BuildContext context) {
+                          return AddGreenJobPage();
+                        },
+                      ));
+                    },
+                    child: Container(
+                      decoration: BoxDecoration(
+                          image: DecorationImage(
+                              image: ExactAssetImage('images/home/events/event3.png'),
+                              fit: BoxFit.fill
+                          ),
+                          border: Border.all(color: Colors.grey),
+                          borderRadius: BorderRadius.circular(10.0)
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: new EdgeInsets.symmetric(horizontal: 15.0, vertical: 10.0),
                     ),
-                    width: MediaQuery.of(context).size.width,
-                    margin: new EdgeInsets.symmetric(horizontal: 15.0, vertical: 10.0),
                   ),
-                  Container(
-                    decoration: BoxDecoration(
-                        image: DecorationImage(
-                            image: ExactAssetImage('images/home/events/event2.jpg'),
-                            fit: BoxFit.fill
-                        ),
-                        border: Border.all(color: Colors.grey),
-                        borderRadius: BorderRadius.circular(10.0)
+                  InkWell(
+                    onTap: (){
+                      return Navigator.of(context).push(MaterialPageRoute<Null>(
+                        builder: (BuildContext context) {
+                          return NoDataUI();
+                        },
+                      ));
+                    },
+                    child: Container(
+                      decoration: BoxDecoration(
+                          image: DecorationImage(
+                              image: ExactAssetImage('images/home/events/event2.jpg'),
+                              fit: BoxFit.fill
+                          ),
+                          border: Border.all(color: Colors.grey),
+                          borderRadius: BorderRadius.circular(10.0)
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: new EdgeInsets.symmetric(horizontal: 15.0, vertical: 10.0),
                     ),
-                    width: MediaQuery.of(context).size.width,
-                    margin: new EdgeInsets.symmetric(horizontal: 15.0, vertical: 10.0),
                   ),
-                  Container(
-                    decoration: BoxDecoration(
-                        image: DecorationImage(
-                            image: ExactAssetImage('images/home/events/event3.png'),
-                            fit: BoxFit.fill
-                        ),
-                        border: Border.all(color: Colors.grey),
-                        borderRadius: BorderRadius.circular(10.0)
+                  InkWell(
+                    onTap: (){
+                      return Navigator.of(context).push(MaterialPageRoute<Null>(
+                        builder: (BuildContext context) {
+                          return NoDataUI();
+                        },
+                      ));
+                    },
+                    child: Container(
+                      decoration: BoxDecoration(
+                          image: DecorationImage(
+                              image: ExactAssetImage('images/home/events/event1.jpg'),
+                              fit: BoxFit.fill
+                          ),
+                          border: Border.all(color: Colors.grey),
+                          borderRadius: BorderRadius.circular(10.0)
+                      ),
+                      width: MediaQuery.of(context).size.width,
+                      margin: new EdgeInsets.symmetric(horizontal: 15.0, vertical: 10.0),
                     ),
-                    width: MediaQuery.of(context).size.width,
-                    margin: new EdgeInsets.symmetric(horizontal: 15.0, vertical: 10.0),
                   )
                 ].map((i){
                   return Container(
