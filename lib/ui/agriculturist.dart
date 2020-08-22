@@ -3,6 +3,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:greenjobs_ph/ui/agriculturist_profile_ui.dart';
 
+import 'nodata_ui.dart';
+
 class AgriculturistPage extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
@@ -86,14 +88,15 @@ class AgriculturistPage extends StatelessWidget{
                     ),
                   ),
                 ),
-                InkWell(onTap: (){
-                  return Navigator.of(context).push(MaterialPageRoute<Null>(
-                      builder: (BuildContext context) {
-                        return AgriculturistProfilePage();
-                      },
-                      fullscreenDialog: false
-                  ));
-                },
+                InkWell(
+                  onTap: (){
+                    return Navigator.of(context).push(MaterialPageRoute<Null>(
+                        builder: (BuildContext context) {
+                          return NoDataUI();
+                        },
+                        fullscreenDialog: false
+                    ));
+                  },
                   child: Container(
                     decoration: BoxDecoration(
                       image: DecorationImage(
@@ -120,14 +123,15 @@ class AgriculturistPage extends StatelessWidget{
                     ),
                   ),
                 ),
-                InkWell(onTap: (){
-                  return Navigator.of(context).push(MaterialPageRoute<Null>(
-                      builder: (BuildContext context) {
-                        return AgriculturistProfilePage();
-                      },
-                      fullscreenDialog: false
-                  ));
-                },
+                InkWell(
+                  onTap: (){
+                    return Navigator.of(context).push(MaterialPageRoute<Null>(
+                        builder: (BuildContext context) {
+                          return NoDataUI();
+                        },
+                        fullscreenDialog: false
+                    ));
+                  },
                   child: Container(
                     margin: EdgeInsets.only(right: 5.0),
                     decoration: BoxDecoration(
@@ -155,14 +159,15 @@ class AgriculturistPage extends StatelessWidget{
                     ),
                   ),
                 ),
-                InkWell(onTap: (){
-                  return Navigator.of(context).push(MaterialPageRoute<Null>(
-                      builder: (BuildContext context) {
-                        return AgriculturistProfilePage();
-                      },
-                      fullscreenDialog: false
-                  ));
-                },
+                InkWell(
+                  onTap: (){
+                    return Navigator.of(context).push(MaterialPageRoute<Null>(
+                        builder: (BuildContext context) {
+                          return NoDataUI();
+                        },
+                        fullscreenDialog: false
+                    ));
+                  },
                   child: Container(
                     margin: EdgeInsets.only(left: 5.0),
                     decoration: BoxDecoration(
@@ -190,14 +195,15 @@ class AgriculturistPage extends StatelessWidget{
                     ),
                   ),
                 ),
-                InkWell(onTap: (){
-                  return Navigator.of(context).push(MaterialPageRoute<Null>(
-                      builder: (BuildContext context) {
-                        return AgriculturistProfilePage();
-                      },
-                      fullscreenDialog: false
-                  ));
-                },
+                InkWell(
+                  onTap: (){
+                    return Navigator.of(context).push(MaterialPageRoute<Null>(
+                        builder: (BuildContext context) {
+                          return NoDataUI();
+                        },
+                        fullscreenDialog: false
+                    ));
+                  },
                   child: Container(
                     decoration: BoxDecoration(
                       image: DecorationImage(
@@ -224,14 +230,15 @@ class AgriculturistPage extends StatelessWidget{
                     ),
                   ),
                 ),
-                InkWell(onTap: (){
-                  return Navigator.of(context).push(MaterialPageRoute<Null>(
-                      builder: (BuildContext context) {
-                        return AgriculturistProfilePage();
-                      },
-                      fullscreenDialog: false
-                  ));
-                },
+                InkWell(
+                  onTap: (){
+                    return Navigator.of(context).push(MaterialPageRoute<Null>(
+                        builder: (BuildContext context) {
+                          return NoDataUI();
+                        },
+                        fullscreenDialog: false
+                    ));
+                  },
                   child: Container(
                     margin: EdgeInsets.only(right: 5.0),
                     decoration: BoxDecoration(
@@ -259,14 +266,15 @@ class AgriculturistPage extends StatelessWidget{
                     ),
                   ),
                 ),
-                InkWell(onTap: (){
-                  return Navigator.of(context).push(MaterialPageRoute<Null>(
-                      builder: (BuildContext context) {
-                        return AgriculturistProfilePage();
-                      },
-                      fullscreenDialog: false
-                  ));
-                },
+                InkWell(
+                  onTap: (){
+                    return Navigator.of(context).push(MaterialPageRoute<Null>(
+                        builder: (BuildContext context) {
+                          return NoDataUI();
+                        },
+                        fullscreenDialog: false
+                    ));
+                  },
                   child: Container(
                     margin: EdgeInsets.only(left: 5.0),
                     decoration: BoxDecoration(
@@ -294,14 +302,15 @@ class AgriculturistPage extends StatelessWidget{
                     ),
                   ),
                 ),
-                InkWell(onTap: (){
-                  return Navigator.of(context).push(MaterialPageRoute<Null>(
-                      builder: (BuildContext context) {
-                        return AgriculturistProfilePage();
-                      },
-                      fullscreenDialog: false
-                  ));
-                },
+                InkWell(
+                  onTap: (){
+                    return Navigator.of(context).push(MaterialPageRoute<Null>(
+                        builder: (BuildContext context) {
+                          return NoDataUI();
+                        },
+                        fullscreenDialog: false
+                    ));
+                  },
                   child: Container(
                     decoration: BoxDecoration(
                       image: DecorationImage(
@@ -328,14 +337,15 @@ class AgriculturistPage extends StatelessWidget{
                     ),
                   ),
                 ),
-                InkWell(onTap: (){
-                  return Navigator.of(context).push(MaterialPageRoute<Null>(
-                      builder: (BuildContext context) {
-                        return AgriculturistProfilePage();
-                      },
-                      fullscreenDialog: false
-                  ));
-                },
+                InkWell(
+                  onTap: (){
+                    return Navigator.of(context).push(MaterialPageRoute<Null>(
+                        builder: (BuildContext context) {
+                          return NoDataUI();
+                        },
+                        fullscreenDialog: false
+                    ));
+                  },
                   child: Container(
                     margin: EdgeInsets.only(right: 5.0),
                     decoration: BoxDecoration(

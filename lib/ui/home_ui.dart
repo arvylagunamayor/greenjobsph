@@ -130,6 +130,12 @@ class HomePageState extends State<HomePage>{
 //              ),
 //            ),
 //          ),
+
+          SliverToBoxAdapter(
+            child: Container(
+              margin: EdgeInsets.only(top: 16.0),
+            ),
+          ),
           SliverGrid.count(
             crossAxisCount: 4,
             mainAxisSpacing: 10.0,

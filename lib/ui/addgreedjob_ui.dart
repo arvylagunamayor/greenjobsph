@@ -272,7 +272,7 @@ class AddGreenJobPage extends StatelessWidget{
                           ),
                           child: DateTimeField(
                             initialValue: DateTime.now(),
-                            format: DateFormat("MMM dd, yyyy HH:mm"),
+                            format: DateFormat("MMM dd, yyyy hh:mm:ss aa"),
                             onShowPicker: (context, currentValue) {
                               return showDatePicker(
                                   context: context,

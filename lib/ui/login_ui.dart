@@ -41,12 +41,9 @@ class LoginPage extends StatelessWidget{
                     children: [
                       Expanded(
                         child: InkWell(
-                          onTap: (){
-
-                          },
                           child: Container(
                             decoration: BoxDecoration(
-                                color: Colors.green,
+                                color: Colors.grey,
                                 borderRadius: BorderRadius.circular(20.0)
                             ),
                             padding: EdgeInsets.all(10.0),
@@ -76,7 +73,7 @@ class LoginPage extends StatelessWidget{
                               ),
                               padding: EdgeInsets.all(10.0),
                               margin: EdgeInsets.only(left: 50.0, right: 50.0, top: 10.0, bottom: 30.0),
-                              child: Text('LOG IN', textAlign: TextAlign.center, style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
+                              child: Text('LOG AS GUEST', textAlign: TextAlign.center, style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),),
                             )
                           )
                       )

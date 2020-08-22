@@ -1,6 +1,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:greenjobs_ph/ui/nodata_ui.dart';
 
 import 'agriculturist.dart';
 
@@ -76,7 +77,7 @@ class AgriculturePage extends StatelessWidget{
                             Expanded(
                               child: Container(
                                 decoration: BoxDecoration(
-                                  color: Colors.black.withOpacity(0.6)
+                                    color: Colors.black.withOpacity(0.6)
                                 ),
                                 child: Text('Agriculturist', style: TextStyle(color: Colors.white), textAlign: TextAlign.center,),
                               ),
@@ -88,6 +89,14 @@ class AgriculturePage extends StatelessWidget{
                   ),
                 ),
                 InkWell(
+                  onTap: (){
+                    return Navigator.of(context).push(MaterialPageRoute<Null>(
+                        builder: (BuildContext context) {
+                          return NoDataUI();
+                        },
+                        fullscreenDialog: false
+                    ));
+                  },
                   child: Container(
                     decoration: BoxDecoration(
                       image: DecorationImage(
@@ -115,6 +124,14 @@ class AgriculturePage extends StatelessWidget{
                   ),
                 ),
                 InkWell(
+                  onTap: (){
+                    return Navigator.of(context).push(MaterialPageRoute<Null>(
+                        builder: (BuildContext context) {
+                          return NoDataUI();
+                        },
+                        fullscreenDialog: false
+                    ));
+                  },
                   child: Container(
                     margin: EdgeInsets.only(right: 5.0),
                     decoration: BoxDecoration(
@@ -143,6 +160,14 @@ class AgriculturePage extends StatelessWidget{
                   ),
                 ),
                 InkWell(
+                  onTap: (){
+                    return Navigator.of(context).push(MaterialPageRoute<Null>(
+                        builder: (BuildContext context) {
+                          return NoDataUI();
+                        },
+                        fullscreenDialog: false
+                    ));
+                  },
                   child: Container(
                     margin: EdgeInsets.only(left: 5.0),
                     decoration: BoxDecoration(
@@ -171,6 +196,14 @@ class AgriculturePage extends StatelessWidget{
                   ),
                 ),
                 InkWell(
+                  onTap: (){
+                    return Navigator.of(context).push(MaterialPageRoute<Null>(
+                        builder: (BuildContext context) {
+                          return NoDataUI();
+                        },
+                        fullscreenDialog: false
+                    ));
+                  },
                   child: Container(
                     decoration: BoxDecoration(
                       image: DecorationImage(
@@ -198,6 +231,14 @@ class AgriculturePage extends StatelessWidget{
                   ),
                 ),
                 InkWell(
+                  onTap: (){
+                    return Navigator.of(context).push(MaterialPageRoute<Null>(
+                        builder: (BuildContext context) {
+                          return NoDataUI();
+                        },
+                        fullscreenDialog: false
+                    ));
+                  },
                   child: Container(
                     margin: EdgeInsets.only(right: 5.0),
                     decoration: BoxDecoration(
@@ -226,6 +267,14 @@ class AgriculturePage extends StatelessWidget{
                   ),
                 ),
                 InkWell(
+                  onTap: (){
+                    return Navigator.of(context).push(MaterialPageRoute<Null>(
+                        builder: (BuildContext context) {
+                          return NoDataUI();
+                        },
+                        fullscreenDialog: false
+                    ));
+                  },
                   child: Container(
                     margin: EdgeInsets.only(left: 5.0),
                     decoration: BoxDecoration(
@@ -254,6 +303,14 @@ class AgriculturePage extends StatelessWidget{
                   ),
                 ),
                 InkWell(
+                  onTap: (){
+                    return Navigator.of(context).push(MaterialPageRoute<Null>(
+                        builder: (BuildContext context) {
+                          return NoDataUI();
+                        },
+                        fullscreenDialog: false
+                    ));
+                  },
                   child: Container(
                     decoration: BoxDecoration(
                       image: DecorationImage(
@@ -281,6 +338,14 @@ class AgriculturePage extends StatelessWidget{
                   ),
                 ),
                 InkWell(
+                  onTap: (){
+                    return Navigator.of(context).push(MaterialPageRoute<Null>(
+                        builder: (BuildContext context) {
+                          return NoDataUI();
+                        },
+                        fullscreenDialog: false
+                    ));
+                  },
                   child: Container(
                     margin: EdgeInsets.only(right: 5.0),
                     decoration: BoxDecoration(
